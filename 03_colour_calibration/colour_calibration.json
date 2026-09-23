@@ -1,0 +1,94 @@
+{
+    "colour_space": "OpenCV HSV",
+    "hue_range": [
+        0,
+        179
+    ],
+    "saturation_range": [
+        0,
+        255
+    ],
+    "value_range": [
+        0,
+        255
+    ],
+    "patch_radius_px": 10,
+    "colours": {
+        "red": {
+            "hue_ranges": [
+                [
+                    157,
+                    166
+                ]
+            ],
+            "sat_min": 69,
+            "sat_max": 255,
+            "val_min": 173,
+            "val_max": 255,
+            "samples": 6,
+            "statistics": {
+                "hue_circular_centre": 162.45979240495774,
+                "saturation_median": 110.0,
+                "value_median": 211.0,
+                "pixel_count": 2646
+            }
+        },
+        "green": {
+            "hue_ranges": [
+                [
+                    85,
+                    92
+                ]
+            ],
+            "sat_min": 130,
+            "sat_max": 255,
+            "val_min": 161,
+            "val_max": 255,
+            "samples": 6,
+            "statistics": {
+                "hue_circular_centre": 88.39870517807219,
+                "saturation_median": 166.0,
+                "value_median": 195.0,
+                "pixel_count": 2646
+            }
+        },
+        "yellow": {
+            "hue_ranges": [
+                [
+                    29,
+                    36
+                ]
+            ],
+            "sat_min": 14,
+            "sat_max": 255,
+            "val_min": 196,
+            "val_max": 255,
+            "samples": 7,
+            "statistics": {
+                "hue_circular_centre": 32.91201459670688,
+                "saturation_median": 49.0,
+                "value_median": 228.0,
+                "pixel_count": 3087
+            }
+        },
+        "blue": {
+            "hue_ranges": [
+                [
+                    97,
+                    104
+                ]
+            ],
+            "sat_min": 221,
+            "sat_max": 255,
+            "val_min": 222,
+            "val_max": 255,
+            "samples": 11,
+            "statistics": {
+                "hue_circular_centre": 100.89241432538573,
+                "saturation_median": 255.0,
+                "value_median": 255.0,
+                "pixel_count": 4851
+            }
+        }
+    }
+}
