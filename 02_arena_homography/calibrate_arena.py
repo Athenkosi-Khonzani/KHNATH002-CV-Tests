@@ -12,8 +12,8 @@ CAMERA_URL = "http://196.47.212.136:8080/video"
 CAMERA_CALIBRATION_FILE = "camera_calibration.json"
 ARENA_CALIBRATION_FILE = "arena_calibration.json"
 
-ARENA_WIDTH_MM = 1530.0
-ARENA_HEIGHT_MM = 1010.0
+ARENA_WIDTH_MM = 1710.0
+ARENA_HEIGHT_MM = 1026.0
 
 # Bird's-eye display resolution
 BIRDSEYE_WIDTH = 1000

@@ -13,81 +13,90 @@
         255
     ],
     "patch_radius_px": 10,
+    "minimum_samples_per_colour": 5,
     "colours": {
         "red": {
             "hue_ranges": [
                 [
-                    157,
-                    166
+                    154,
+                    171
                 ]
             ],
-            "sat_min": 69,
+            "sat_min": 54,
             "sat_max": 255,
-            "val_min": 173,
+            "val_min": 153,
             "val_max": 255,
-            "samples": 6,
+            "samples": 22,
             "statistics": {
-                "hue_circular_centre": 162.45979240495774,
-                "saturation_median": 110.0,
-                "value_median": 211.0,
-                "pixel_count": 2646
+                "hue_circular_centre": 162.75265285852012,
+                "hue_half_width": 8.0,
+                "saturation_median": 115.0,
+                "value_median": 203.0,
+                "pixel_count": 9702,
+                "valid_colour_pixels": 9702
             }
         },
         "green": {
             "hue_ranges": [
                 [
-                    85,
-                    92
+                    80,
+                    97
                 ]
             ],
-            "sat_min": 130,
+            "sat_min": 100,
             "sat_max": 255,
-            "val_min": 161,
+            "val_min": 128,
             "val_max": 255,
-            "samples": 6,
+            "samples": 19,
             "statistics": {
-                "hue_circular_centre": 88.39870517807219,
-                "saturation_median": 166.0,
-                "value_median": 195.0,
-                "pixel_count": 2646
+                "hue_circular_centre": 88.92841368291877,
+                "hue_half_width": 8.071586317081227,
+                "saturation_median": 179.0,
+                "value_median": 174.0,
+                "pixel_count": 8379,
+                "valid_colour_pixels": 8379
             }
         },
         "yellow": {
             "hue_ranges": [
                 [
-                    29,
-                    36
+                    24,
+                    41
                 ]
             ],
-            "sat_min": 14,
+            "sat_min": 3,
             "sat_max": 255,
-            "val_min": 196,
+            "val_min": 157,
             "val_max": 255,
-            "samples": 7,
+            "samples": 25,
             "statistics": {
-                "hue_circular_centre": 32.91201459670688,
-                "saturation_median": 49.0,
-                "value_median": 228.0,
-                "pixel_count": 3087
+                "hue_circular_centre": 32.47750431353694,
+                "hue_half_width": 8.0,
+                "saturation_median": 72.0,
+                "value_median": 201.0,
+                "pixel_count": 11025,
+                "valid_colour_pixels": 10581
             }
         },
         "blue": {
             "hue_ranges": [
                 [
-                    97,
-                    104
+                    96,
+                    113
                 ]
             ],
-            "sat_min": 221,
+            "sat_min": 152,
             "sat_max": 255,
-            "val_min": 222,
+            "val_min": 180,
             "val_max": 255,
-            "samples": 11,
+            "samples": 18,
             "statistics": {
-                "hue_circular_centre": 100.89241432538573,
-                "saturation_median": 255.0,
-                "value_median": 255.0,
-                "pixel_count": 4851
+                "hue_circular_centre": 104.01074691600977,
+                "hue_half_width": 8.0,
+                "saturation_median": 209.0,
+                "value_median": 226.0,
+                "pixel_count": 7938,
+                "valid_colour_pixels": 7938
             }
         }
     }
