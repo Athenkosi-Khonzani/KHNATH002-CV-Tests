@@ -1,0 +1,96 @@
+{
+    "arena": {
+        "width_mm": 1710.0,
+        "height_mm": 1026.0
+    },
+    "blocks": [
+        {
+            "id": "blue_block_01",
+            "type": "block",
+            "colour": "blue",
+            "centre_mm": {
+                "x": 981.42,
+                "y": 421.75
+            },
+            "width_mm": 271.11,
+            "height_mm": 196.26,
+            "orientation_deg": 178.99,
+            "area_mm2": 50234.99,
+            "rectangularity": 0.944
+        },
+        {
+            "id": "green_block_01",
+            "type": "block",
+            "colour": "green",
+            "centre_mm": {
+                "x": 673.35,
+                "y": 751.78
+            },
+            "width_mm": 276.11,
+            "height_mm": 198.99,
+            "orientation_deg": 0.53,
+            "area_mm2": 52027.25,
+            "rectangularity": 0.947
+        },
+        {
+            "id": "red_block_01",
+            "type": "block",
+            "colour": "red",
+            "centre_mm": {
+                "x": 992.54,
+                "y": 735.62
+            },
+            "width_mm": 275.77,
+            "height_mm": 192.98,
+            "orientation_deg": 86.36,
+            "area_mm2": 50905.66,
+            "rectangularity": 0.957
+        },
+        {
+            "id": "yellow_block_01",
+            "type": "block",
+            "colour": "yellow",
+            "centre_mm": {
+                "x": 242.5,
+                "y": 300.09
+            },
+            "width_mm": 304.95,
+            "height_mm": 211.21,
+            "orientation_deg": 67.61,
+            "area_mm2": 53416.92,
+            "rectangularity": 0.829
+        }
+    ],
+    "green_marker_candidates": [
+        {
+            "id": "green_marker_candidate_01",
+            "type": "green_marker_candidate",
+            "centre_mm": {
+                "x": 582.68,
+                "y": 445.04
+            },
+            "area_mm2": 530.03,
+            "circularity": 0.791
+        },
+        {
+            "id": "green_marker_candidate_02",
+            "type": "green_marker_candidate",
+            "centre_mm": {
+                "x": 599.06,
+                "y": 317.59
+            },
+            "area_mm2": 590.68,
+            "circularity": 0.726
+        },
+        {
+            "id": "green_marker_candidate_03",
+            "type": "green_marker_candidate",
+            "centre_mm": {
+                "x": 662.47,
+                "y": 321.04
+            },
+            "area_mm2": 451.8,
+            "circularity": 0.555
+        }
+    ]
+}
