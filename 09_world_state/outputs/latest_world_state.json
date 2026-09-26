@@ -1,0 +1,167 @@
+{
+    "schema": "ai_learner_world_state",
+    "schema_version": "1.0",
+    "coordinate_frame": {
+        "units": "mm",
+        "origin": "arena_bottom_left",
+        "x_axis": "right",
+        "y_axis": "up",
+        "heading": {
+            "0_deg": "+Y/up",
+            "90_deg": "+X/right",
+            "180_deg": "-Y/down",
+            "270_deg": "-X/left"
+        }
+    },
+    "arena": {
+        "width_mm": 1710.0,
+        "height_mm": 1026.0
+    },
+    "rover": {
+        "available": true,
+        "pose_valid": true,
+        "confidence": 1.0,
+        "stale": false,
+        "age_s": 0.0,
+        "pose": {
+            "x_mm": 952.8,
+            "y_mm": 765.6,
+            "heading_deg": 290.0
+        }
+    },
+    "obstacles": [
+        {
+            "id": "red_block_01",
+            "type": "coloured_block",
+            "colour": "red",
+            "centre_mm": {
+                "x": 1200.7,
+                "y": 376.3
+            },
+            "size_mm": {
+                "long_side": 306.6,
+                "short_side": 197.2
+            },
+            "orientation_deg": 101.3,
+            "polygon_mm": [
+                {
+                    "x": 1132.4,
+                    "y": 218.9
+                },
+                {
+                    "x": 1072.3,
+                    "y": 519.5
+                },
+                {
+                    "x": 1269.0,
+                    "y": 533.7
+                },
+                {
+                    "x": 1329.1,
+                    "y": 233.0
+                }
+            ]
+        },
+        {
+            "id": "green_block_01",
+            "type": "coloured_block",
+            "colour": "green",
+            "centre_mm": {
+                "x": 285.9,
+                "y": 360.0
+            },
+            "size_mm": {
+                "long_side": 288.6,
+                "short_side": 202.0
+            },
+            "orientation_deg": 90.0,
+            "polygon_mm": [
+                {
+                    "x": 386.8,
+                    "y": 215.7
+                },
+                {
+                    "x": 184.9,
+                    "y": 215.7
+                },
+                {
+                    "x": 184.9,
+                    "y": 504.3
+                },
+                {
+                    "x": 386.8,
+                    "y": 504.3
+                }
+            ]
+        },
+        {
+            "id": "yellow_block_01",
+            "type": "coloured_block",
+            "colour": "yellow",
+            "centre_mm": {
+                "x": 502.2,
+                "y": 222.3
+            },
+            "size_mm": {
+                "long_side": 306.4,
+                "short_side": 205.7
+            },
+            "orientation_deg": 103.5,
+            "polygon_mm": [
+                {
+                    "x": 435.4,
+                    "y": 64.5
+                },
+                {
+                    "x": 364.0,
+                    "y": 362.4
+                },
+                {
+                    "x": 569.0,
+                    "y": 380.1
+                },
+                {
+                    "x": 640.3,
+                    "y": 82.1
+                }
+            ]
+        },
+        {
+            "id": "blue_block_01",
+            "type": "coloured_block",
+            "colour": "blue",
+            "centre_mm": {
+                "x": 509.5,
+                "y": 857.0
+            },
+            "size_mm": {
+                "long_side": 286.6,
+                "short_side": 202.4
+            },
+            "orientation_deg": 0.8,
+            "polygon_mm": [
+                {
+                    "x": 370.3,
+                    "y": 753.8
+                },
+                {
+                    "x": 362.0,
+                    "y": 956.1
+                },
+                {
+                    "x": 648.6,
+                    "y": 960.3
+                },
+                {
+                    "x": 656.9,
+                    "y": 758.0
+                }
+            ]
+        }
+    ],
+    "perception": {
+        "block_count": 4,
+        "rover_marker_id": 29,
+        "rover_marker_dictionary": "DICT_4X4_50"
+    }
+}

@@ -28,9 +28,9 @@ CAPTURE_DIR.mkdir(parents=True, exist_ok=True)
 # USER SETTINGS
 # ============================================================
 
-CAMERA_URL = "http://196.47.212.136:8080/video"
+CAMERA_URL = "http://196.24.154.126:8080/video"
 
-ARUCO_DICTIONARY = cv2.aruco.DICT_6X6_250
+ARUCO_DICTIONARY = cv2.aruco.DICT_4X4_50
 ROVER_MARKER_ID = 29
 
 # The marker's canonical TOP edge must physically point toward

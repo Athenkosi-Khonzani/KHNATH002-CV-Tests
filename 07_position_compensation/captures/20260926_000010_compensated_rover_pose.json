@@ -1,0 +1,23 @@
+{
+    "marker": {
+        "dictionary": "DICT_4X4_50",
+        "id": 29,
+        "centre_mm": {
+            "x": 1082.76,
+            "y": 577.69
+        }
+    },
+    "rover_reference_offset_body_mm": {
+        "left": 64.0,
+        "forward": 90.0
+    },
+    "rotated_offset_world_mm": {
+        "x": -59.71,
+        "y": 92.9
+    },
+    "rover_pose": {
+        "x_mm": 1023.05,
+        "y_mm": 670.59,
+        "heading_deg": 2.69
+    }
+}

@@ -20,7 +20,7 @@ COLOUR_CALIBRATION_FILE = CALIBRATION_DIR / "colour_calibration.json"
 
 CAPTURE_DIR.mkdir(parents=True, exist_ok=True)
 
-CAMERA_URL = "http://196.47.212.136:8080/video"
+CAMERA_URL = "http://196.24.154.126:8080/video"
 
 MIN_BLOCK_AREA_MM2 = 10_000.0
 MIN_BLOCK_RECTANGULARITY = 0.70

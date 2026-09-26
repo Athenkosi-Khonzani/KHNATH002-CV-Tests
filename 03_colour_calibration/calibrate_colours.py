@@ -10,7 +10,7 @@ import numpy as np
 # ============================================================
 
 # Replace with the actual IP/MJPEG camera stream URL.
-CAMERA_URL = "http://196.47.212.136:8080/video"
+CAMERA_URL = "http://196.24.154.126:8080/video"
 
 CAMERA_CALIBRATION_FILE = "camera_calibration.json"
 ARENA_CALIBRATION_FILE = "arena_calibration.json"

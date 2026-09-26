@@ -1,0 +1,32 @@
+AI LEARNER WORLD STATE - TEXT MAP
+Arena: 1710 mm x 1026 mm | Cell size: 100 mm
+Origin: bottom-left | +X right | +Y up | Rover heading 0 deg = up
+
+y\x        0 100 200 300 400 500 600 700 800 90010001100120013001400150016001700
+1000       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+ 900       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+ 800       .   .   .   .   .   B   .   .   .   .   .   .   .   .   .   .   .   .
+ 700       .   .   .   .   .   .   .   .   .   <   .   .   .   .   .   .   .   .
+ 600       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+ 500       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+ 400       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+ 300       .   .   G   .   .   .   .   .   .   .   .   .   R   .   .   .   .   .
+ 200       .   .   .   .   .   Y   .   .   .   .   .   .   .   .   .   .   .   .
+ 100       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+   0       .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+
+Legend:
+  R = red block
+  G = green block
+  Y = yellow block
+  B = blue block
+  ^ > v < / \ = rover heading
+  * = multiple objects in same cell
+  . = empty
+
+Rover pose: (953.0, 765.4) mm, heading 289.9 deg, confidence 1.000
+Detected blocks:
+  - red_block_01: red at (1201.2, 375.8) mm
+  - green_block_01: green at (285.9, 359.5) mm
+  - yellow_block_01: yellow at (502.2, 222.8) mm
+  - blue_block_01: blue at (509.5, 857.1) mm

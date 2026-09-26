@@ -1,0 +1,27 @@
+{
+    "marker": {
+        "dictionary": "DICT_4X4_50",
+        "id": 29
+    },
+    "body_offset_mm": {
+        "left": 64.0,
+        "forward": 90.0
+    },
+    "raw_pose": {
+        "x_mm": 1022.67,
+        "y_mm": 672.04,
+        "heading_deg": 2.7,
+        "marker_side_px": 65.76
+    },
+    "filtered_pose": {
+        "x_mm": 1022.67,
+        "y_mm": 672.03,
+        "heading_deg": 2.7,
+        "confidence": 1.0,
+        "valid": true,
+        "stale": false,
+        "age_s": 0.0,
+        "marker_detected": true,
+        "measurement_accepted": true
+    }
+}

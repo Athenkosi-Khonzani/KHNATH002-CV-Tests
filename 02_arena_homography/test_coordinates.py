@@ -5,7 +5,7 @@ import json
 import numpy as np
 
 
-CAMERA_URL = "http://196.47.212.136:8080/video"
+CAMERA_URL = "http://196.24.154.126:8080/video"
 
 CAMERA_CAL_FILE = "camera_calibration.json"
 ARENA_CAL_FILE = "arena_calibration.json"
